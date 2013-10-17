@@ -1,0 +1,12 @@
+# Be sure to restart your server when you modify this file.
+
+# Your secret key is used for verifying the integrity of signed cookies.
+# If you change this key, all old signed cookies will become invalid!
+
+# Make sure the secret is at least 30 characters and all random,
+# no regular words or you'll be exposed to dictionary attacks.
+# You can use `rake secret` to generate a secure secret key.
+
+# Make sure your secret_key_base is kept private
+# if you're sharing your code publicly.
+FirstProj::Application.config.secret_key_base = '18b4b267f682063fc2c59f47113e11efd978aa342a27481af1e4f33100b49d1514da4ea7c823f44e52a1cb3f4fcac1a68a432f6811a8094f573151f66e5b9102'
